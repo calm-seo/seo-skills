@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "calmseo": {
+      "type": "http",
+      "url": "https://mcp.calmseo.com/mcp"
+    }
+  }
+}

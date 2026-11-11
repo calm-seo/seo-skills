@@ -1,0 +1,10 @@
+{
+  "name": "calmseo",
+  "version": "1.0.0",
+  "description": "SEO skills backed by your Google Search Console data and live SERPs, plus the CalmSEO MCP server.",
+  "mcpServers": {
+    "calmseo": {
+      "httpUrl": "https://mcp.calmseo.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "calmseo",
+  "version": "1.0.0",
+  "description": "SEO skills for Claude Code backed by your real Google Search Console data and live SERPs: find your next SEO fix, Search Console reports, CTR title rewrites, content refreshes, cannibalization, indexing checks, keyword research, content briefs, and competitor gaps. Installs the CalmSEO MCP server.",
+  "author": {
+    "name": "CalmSEO",
+    "url": "https://calmseo.com"
+  },
+  "homepage": "https://calmseo.com",
+  "repository": "https://github.com/calm-seo/seo-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "seo-skills",
+    "google-search-console",
+    "keyword-research",
+    "serp",
+    "content-marketing",
+    "technical-seo",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://calmseo.com/privacy-policy"
+}

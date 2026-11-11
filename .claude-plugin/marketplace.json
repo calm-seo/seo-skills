@@ -1,0 +1,19 @@
+{
+  "name": "calmseo",
+  "owner": {
+    "name": "CalmSEO"
+  },
+  "metadata": {
+    "description": "CalmSEO skills and MCP server for SEO with real Google Search Console data.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "calmseo",
+      "source": "./",
+      "description": "SEO skills backed by your Google Search Console data and live SERPs, plus the CalmSEO MCP server.",
+      "category": "marketing",
+      "homepage": "https://calmseo.com"
+    }
+  ]
+}
