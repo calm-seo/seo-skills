@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Agent skills that do SEO with your real Google Search Console data, not guesses.</strong><br />
-  Find your next SEO fix, rewrite low-CTR titles, refresh decaying pages, fix cannibalization and indexing, and plan content from live SERPs and keyword data.
+  Find your next SEO fix, rewrite low-CTR titles, refresh decaying pages, fix cannibalization and indexing, plan content from live SERPs and keyword data, and find link building prospects from competitor backlinks.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 Most SEO prompts ask an AI to guess. These skills make your agent look first: which pages get impressions, which queries slipped, what Google ranks today, and how many people search for it. Then they end in a concrete change, usually an edit to your codebase that you approve.
 
-Each skill is a plain Markdown `SKILL.md` that runs on the [CalmSEO MCP server](https://calmseo.com). Search Console tools are free. Live SERP, keyword, and audit tools use CalmSEO credits, and every skill tells you the cost and waits for your OK before spending any.
+Each skill is a plain Markdown `SKILL.md` that runs on the [CalmSEO MCP server](https://calmseo.com). Search Console tools are free. Live SERP, keyword, backlink, and audit tools use CalmSEO credits, and every skill tells you the cost and waits for your OK before spending any.
 
 ## Skills
 
@@ -34,6 +34,7 @@ Each skill is a plain Markdown `SKILL.md` that runs on the [CalmSEO MCP server](
 | [`keyword-research`](skills/keyword-research/SKILL.md) | Expands seeds into a keyword map grouped by intent and mapped to existing or new pages | About 15 to 25 credits |
 | [`content-brief`](skills/content-brief/SKILL.md) | Writes a brief for one keyword from the live SERP: intent, angle, outline, titles, and internal links | About 16 credits |
 | [`competitor-keyword-gap`](skills/competitor-keyword-gap/SKILL.md) | Finds keywords a competitor ranks for that you do not, and the pages to build | 5 to 20 credits per competitor |
+| [`backlink-gap`](skills/backlink-gap/SKILL.md) | Finds sites that link to your competitors but not to you, qualifies them, and returns a prioritized link building prospect list | About 5 to 30 credits |
 
 New CalmSEO accounts start with free trial credits, enough for a full `find-next-seo-fix` run.
 
@@ -79,6 +80,7 @@ Skills work on their own, but they also hand off to each other:
 2. **More clicks from pages you already have:** `find-next-seo-fix`, or `ctr-title-rewrite` for many pages at once. Both log each change in `seo-fixes.md` with a baseline and a re-check date, and the next run reports what moved.
 3. **Win back lost traffic:** `content-refresh`, with `indexing-check` and `keyword-cannibalization` when the cause is technical.
 4. **Plan new content:** `keyword-research` or `competitor-keyword-gap` builds the map, and `content-brief` turns one row into a page.
+5. **Earn links:** `backlink-gap` finds the sites that link to your competitors but not to you, and the competitor pages that earn the most links.
 
 ## Using the skills without an agent
 
@@ -87,10 +89,10 @@ Every `SKILL.md` is readable Markdown. You can paste one into any chat app that 
 ## FAQ
 
 **Do I need a CalmSEO account?**
-Yes. The skills call CalmSEO tools to read your Search Console data and run SERP and keyword checks. Search Console tools are free.
+Yes. The skills call CalmSEO tools to read your Search Console data and run SERP, keyword, and backlink checks. Search Console tools are free.
 
 **What does a paid call cost?**
-A live SERP is 1 credit, a page audit is 5, search volume for up to 1,000 keywords is 15, keyword ideas are 15 to 50, and a competitor's ranked keywords are 5 to 20. See [calmseo.com](https://calmseo.com) for plans.
+A live SERP is 1 credit, a page audit is 5, search volume for up to 1,000 keywords is 15, keyword ideas are 15 to 50, and a competitor's ranked keywords are 5 to 20. A backlink summary is 5, and a backlink list or backlink gap is 5 for up to 100 rows or 15 for up to 1,000 (see [backlink tools](https://calmseo.com/backlink-mcp)). See [calmseo.com](https://calmseo.com) for plans.
 
 **Will the agent change my site without asking?**
 No. Every skill presents its changes first and edits files only after you agree.

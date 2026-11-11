@@ -1,8 +1,8 @@
 {
   "name": "calmseo",
   "displayName": "CalmSEO",
-  "version": "1.0.0",
-  "description": "SEO skills backed by your real Google Search Console data and live SERPs: find your next SEO fix, Search Console reports, CTR title rewrites, content refreshes, cannibalization, indexing checks, keyword research, content briefs, and competitor gaps.",
+  "version": "1.1.0",
+  "description": "SEO skills backed by your real Google Search Console data and live SERPs: find your next SEO fix, Search Console reports, CTR title rewrites, content refreshes, cannibalization, indexing checks, keyword research, content briefs, competitor keyword gaps, and backlink gaps for link building.",
   "author": {
     "name": "CalmSEO",
     "url": "https://calmseo.com"
@@ -16,6 +16,7 @@
     "google-search-console",
     "keyword-research",
     "serp",
+    "backlinks",
     "content",
     "mcp"
   ],
@@ -24,6 +25,7 @@
     "seo",
     "search-console",
     "keywords",
+    "backlinks",
     "mcp"
   ],
   "skills": "./skills/",

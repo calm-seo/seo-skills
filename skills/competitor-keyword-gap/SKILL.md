@@ -60,4 +60,4 @@ Then the gaps, grouped by topic:
 
 Action is either "new page" or "improve <existing page>". End with the three gaps to close first and why: volume, fit with what the site sells, and difficulty compared with the site's strength.
 
-If you are working in a project folder, offer to save it as `seo/competitor-gap-<domain>.md`. To write one of the pages, use the content-brief skill.
+If you are working in a project folder, offer to save it as `seo/competitor-gap-<domain>.md`. To write one of the pages, use the content-brief skill. To find the sites that link to these competitors but not to the site, use the backlink-gap skill.

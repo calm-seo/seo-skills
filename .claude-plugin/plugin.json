@@ -1,7 +1,7 @@
 {
   "name": "calmseo",
-  "version": "1.0.0",
-  "description": "SEO skills for Claude Code backed by your real Google Search Console data and live SERPs: find your next SEO fix, Search Console reports, CTR title rewrites, content refreshes, cannibalization, indexing checks, keyword research, content briefs, and competitor gaps. Installs the CalmSEO MCP server.",
+  "version": "1.1.0",
+  "description": "SEO skills for Claude Code backed by your real Google Search Console data and live SERPs: find your next SEO fix, Search Console reports, CTR title rewrites, content refreshes, cannibalization, indexing checks, keyword research, content briefs, competitor keyword gaps, and backlink gaps for link building. Installs the CalmSEO MCP server.",
   "author": {
     "name": "CalmSEO",
     "url": "https://calmseo.com"
@@ -15,6 +15,8 @@
     "google-search-console",
     "keyword-research",
     "serp",
+    "backlinks",
+    "link-building",
     "content-marketing",
     "technical-seo",
     "mcp"
